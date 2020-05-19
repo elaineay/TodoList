@@ -1,0 +1,57 @@
+  <head>
+    <link rel='stylesheet' type='text/css' href='list_styles.css'/>
+    <script type='text/javascript' src='./list.js'></script>
+  </head>
+
+<body onload='displayInit()'>
+
+  <div id='nav_bar'>
+    <span>
+      <a href='list.html'>
+        My List
+      </a>
+    </span>
+
+    <span>
+      <a href='about_me.html'>
+        About Me!
+      </a>
+    </span>
+  </div>
+
+
+  <div id = 'title'>
+    <span>
+      Elaine's Message List
+    </span>
+  </div>
+
+
+  <div id='form'>
+    <label>
+      New Item:
+    </label>
+    <input id='input' type='text'/>
+
+    <select id='chooseType'>
+      <option value='default'>Choose Category</option>
+      <option value='school'>School</option>
+      <option value='work'>Work</option>
+      <option value='home'>Home</option>
+    </select>
+
+    <button id='add' class='button' onclick='addItem()'>
+      Add
+    </button>
+  </div>
+
+  <div>
+    <button id='clearList' class='button' onclick='clearList()'>
+      Clear List
+    </button>
+  </div>
+
+  <ul id='addedItems'>
+  </ul>
+
+</body>

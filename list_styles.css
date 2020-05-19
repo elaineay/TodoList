@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+}
+
+div {
+  text-align: center;
+}
+
+a {
+  color: white;
+  display: inline-block;
+  padding: 10;
+}
+
+#nav_bar {
+  background-color: purple;
+  margin: 10;
+}
+
+#title {
+  margin: 10;
+  font-size: 25;
+}
+
+.content {
+  text-align: center;
+  list-style: inside;
+}
+
+.button {
+  margin: 3;
+}
+
+.listItem {
+  font-size: 14;
+  margin: 4;
+}
+
+.schoolItem {
+  color: purple;
+}
+
+.workItem {
+  color: blue;
+}
+
+.homeItem {
+  color: green;
+}
+
+.defaultItem {
+  color: grey;
+}
